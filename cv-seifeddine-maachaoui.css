@@ -1,39 +1,42 @@
-.plesk{
-    margin: 1%;
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #050505;
 }
 
-.plesk ul {
+nav{
+    width: 100%;
+}
+
+
+nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
     
 }
 
-.plesk ul li{
-    display: inline-block;
-    padding: 0 3%;
-    border: 1px solid;
-    border-radius: 15px;
-    width: 130px;
-    height: 30px;
-    margin: 0 3%;
+nav ul li{
+    display: block;
     text-align: center;
-    background-color: #343978;
-    box-shadow: 0 0 15px 0 rgba(49, 47, 47, 0.676) ;
+    padding: 4% 4%;
+    
 }
 
-.plesk ul li a {
-    width: 60px;
-    height: 60px;
+nav ul li a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: white;
+    border: 1px solid ;
+    padding: 2% 2%;
+    border-radius: 5px;
    
 }
 
-.plesk ul li a:hover{
-    color: orange ;
+nav ul li a:hover{
+    background-color: #fece31;
+    color: black;
 }
 
 
